@@ -1,3 +1,5 @@
+package FirstBlockChain;
+
 import java.util.Date;
 public class Block {
     public  String hash;
@@ -22,6 +24,6 @@ public class Block {
             nonce ++;
             hash = CalculateHash();
         }
-        System.out.println("Block Mined!!! : " + hash);
+        System.out.println("FirstBlockChain.Block Mined!!! : " + hash);
     }
 }
